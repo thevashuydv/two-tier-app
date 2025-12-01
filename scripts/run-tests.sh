@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -e
-echo "Running integration tests (placeholder)..."
-npm test
+
+echo "Running tests inside container..."
+docker exec web-app npm test
 
