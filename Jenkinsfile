@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/<your-username>/two-tier-docker-jenkins.git'
+                    url: 'https://github.com/thevashuydv/two-tier-app.git'
             }
         }
 
